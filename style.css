@@ -140,8 +140,9 @@ body{
   background: #03a9f4 /* #0000FF */;
 }
 .interest ul{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+           display: flex;
+           flex-direction:column;
+
 }
 
 .interest ul li{
